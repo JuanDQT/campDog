@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B8625D91F307E0A00F1DDD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8625D81F307E0A00F1DDD4 /* AppDelegate.swift */; };
-		5B8625DB1F307E0A00F1DDD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8625DA1F307E0A00F1DDD4 /* ViewController.swift */; };
+		5B8625DB1F307E0A00F1DDD4 /* VC_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8625DA1F307E0A00F1DDD4 /* VC_Login.swift */; };
 		5B8625DE1F307E0A00F1DDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8625DC1F307E0A00F1DDD4 /* Main.storyboard */; };
 		5B8625E01F307E0A00F1DDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8625DF1F307E0A00F1DDD4 /* Assets.xcassets */; };
 		5B8625E31F307E0A00F1DDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8625E11F307E0A00F1DDD4 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		5B8625D51F307E0A00F1DDD4 /* CampDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8625D81F307E0A00F1DDD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B8625DA1F307E0A00F1DDD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B8625DA1F307E0A00F1DDD4 /* VC_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Login.swift; sourceTree = "<group>"; };
 		5B8625DD1F307E0A00F1DDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B8625DF1F307E0A00F1DDD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8625E21F307E0A00F1DDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,22 @@
 		5B8625D71F307E0A00F1DDD4 /* CampDog */ = {
 			isa = PBXGroup;
 			children = (
+				5B8625EA1F307F3900F1DDD4 /* Controllers */,
 				5B8625D81F307E0A00F1DDD4 /* AppDelegate.swift */,
-				5B8625DA1F307E0A00F1DDD4 /* ViewController.swift */,
 				5B8625DC1F307E0A00F1DDD4 /* Main.storyboard */,
 				5B8625DF1F307E0A00F1DDD4 /* Assets.xcassets */,
 				5B8625E11F307E0A00F1DDD4 /* LaunchScreen.storyboard */,
 				5B8625E41F307E0A00F1DDD4 /* Info.plist */,
 			);
 			path = CampDog;
+			sourceTree = "<group>";
+		};
+		5B8625EA1F307F3900F1DDD4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B8625DA1F307E0A00F1DDD4 /* VC_Login.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8625DB1F307E0A00F1DDD4 /* ViewController.swift in Sources */,
+				5B8625DB1F307E0A00F1DDD4 /* VC_Login.swift in Sources */,
 				5B8625D91F307E0A00F1DDD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
